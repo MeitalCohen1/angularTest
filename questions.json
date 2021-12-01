@@ -1,0 +1,18 @@
+[
+  {
+    "equation": "1+3",
+    "answer": "4"
+  },
+  {
+    "equation": "1+5",
+    "answer": "6"
+  },
+  {
+    "equation": "5+5",
+    "answer": "10"
+  },
+  {
+    "equation": "2+3",
+    "answer": "5"
+  }
+]

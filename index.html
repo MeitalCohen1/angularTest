@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="question">
+<html lang="en" ng-app="mathTest">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script src="./node_modules/angular/angular.min.js"></script>
-<!--    <script src="./index.js"></script>-->
-    <script src="question.module.js"></script>
-    <script src="question.component.js"></script>
+    <script src="./app/app.module.js"></script>
+    <script src="./app/app.config.js"></script>
+    <script src="./app/test/test.module.js"></script>
+    <script src="./app/test/test.component.js"></script>
+    <script src="./app/test/question/question.component.js"></script>
+    <script src="./app/test/question/question.module.js"></script>
+
 </head>
+
 <body>
-<!--<h1>hello~!</h1>-->
 
-    <div>
+    <!-- <div>
         <question></question>
-    </div>
+    </div> -->
 
-<!--<div ng-controller="Question">-->
-<!--{{title}}-->
-<!--</div>-->
 
+    <test></test>
 
 
 </body>
